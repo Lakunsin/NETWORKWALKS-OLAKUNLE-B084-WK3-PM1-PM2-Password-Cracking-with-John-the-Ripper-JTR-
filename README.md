@@ -50,12 +50,12 @@ The purpose of this lab is to demonstrate why relying on short, predictable, or 
 
 3. **Hash Extraction & Formatting:** Extracted the cryptographic hash string from `My Locked PDF1` using a PDF Hash Extractor and saved it as a plain text file (`Hashmylockedpdf1`). If the string includes extra characters like `b'` at the very beginning, remove them so the hash starts strictly with `$pdf$`.
 
-   2_My_Locked_PDF1_Hash
+   ![2_My_Locked_PDF1_Hash](2_My_Locked_PDF1_Hash.png)
 
 4. **Password Auditing & Verification (`My Locked PDF1`):** Opened Johnny, navigated to **Open password file > Open password file (PASSWD format)**, selected `Hashmylockedpdf1`, and executed the audit to reveal the password as `good-luck`, which opened `My Locked PDF1` to capture the flag: `nw{cybersecurity_flag_captured_2608}`.
 
-   3_My_Locked_PDF1_Password
+   ![3_My_Locked_PDF1_Password](3_My_Locked_PDF1_Password.png)
 
-   4_My_Locked_PDF1_Flag_Captured
+   ![4_My_Locked_PDF1_Flag_Captured](4_My_Locked_PDF1_Flag_Captured.png)
 
 
