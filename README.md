@@ -5,7 +5,7 @@
 
 ## Project Overview
 
-This report documents the practical security assessment focused on cryptographic hashing, password-protected file auditing, and dictionary-based password strength testing[cite: 2, 18]. The exercise evaluates how password-protected PDF documents store credential hashes and demonstrates how weak or common passwords can be recovered through offline dictionary attacks using both desktop-based and browser-based auditing utilities.
+This report documents the practical security assessment focused on cryptographic hashing, password-protected file auditing, and dictionary-based password strength testing. The exercise evaluates how password-protected PDF documents store credential hashes and demonstrates how weak or common passwords can be recovered through offline dictionary attacks using both desktop-based and browser-based auditing utilities.
 
 
 ## Objectives
@@ -57,5 +57,18 @@ The purpose of this lab is to demonstrate why relying on short, predictable, or 
    ![3_My_Locked_PDF1_Password](3_My_Locked_PDF1_Password.png)
 
    ![4_My_Locked_PDF1_Flag_Captured](4_My_Locked_PDF1_Flag_Captured.png)
+
+
+### Phase 2: Browser-Based Environment (Networkwalks Tools)
+
+1. **Hash Extraction:** Opened the Networkwalks Hash Calculator, uploaded `My Locked PDF1` (for NW Tools Lab WK3-PM2), and copied the extracted hash.
+
+   ![5_NW_PDF_Hash](5_NW_PDF_Hash.png)
+
+2. **Dictionary Execution:** Pasted the hash into the Networkwalks Password Cracker and clicked **Start Cracking**. `password1` opened the file to capture the flag: `nw{networkwalks_flag1_jtr_270521_1}`.
+
+   ![6.1_NW_PDF_Password](6.1_NW_PDF_Password.png)
+
+   ![6.2_NW_PDF_Flag_Captured](6.2_NW_PDF_Flag_Captured.png)
 
 
