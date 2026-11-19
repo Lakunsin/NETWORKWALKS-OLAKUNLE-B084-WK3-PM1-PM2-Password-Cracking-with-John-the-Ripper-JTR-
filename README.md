@@ -106,4 +106,12 @@ The purpose of this lab is to demonstrate why relying on short, predictable, or 
   ![8.5_My_Locked_PDF3_Flag_Captured](8.5_My_Locked_PDF3_Flag_Captured.png)
 
 
-  
+## Recommendations
+
+Based on the successful recovery of the PDF passwords through offline dictionary attacks, the following defensive controls are recommended to protect sensitive documents:
+
+* **Enforce High-Entropy Passphrases:** Avoid short, predictable, or common dictionary words (such as `password1`), which can be cracked within seconds using standard wordlists. Require passphrases of at least 12–16 characters combining uppercase letters, lowercase letters, numbers, and special symbols to exponentially increase offline cracking time.
+* **Upgrade Document Encryption Standards:** The target PDF utilized 128-bit encryption (Revision R4, Version V4). Configure document creation tools to use modern 256-bit AES encryption (PDF Revision 6 / Acrobat X and later), which introduces stronger key-derivation iterations that significantly slow down hash-cracking engines.
+* **Control File Distribution & Access:** Because an attacker can extract the encryption hash (`$pdf$`) and run unlimited offline password guesses without triggering lockout alerts, store sensitive files in encrypted, access-controlled repositories.  
+
+
