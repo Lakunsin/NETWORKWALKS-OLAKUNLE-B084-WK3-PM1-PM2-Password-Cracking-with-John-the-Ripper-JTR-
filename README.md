@@ -126,11 +126,11 @@ Based on the successful recovery of the PDF passwords through offline dictionary
 
 
 ## Author
-Olakunle Odesanya
-Github: [Lakunsin](https://github.com/Lakunsin)
+Olakunle Odesanya  
+Github: [Lakunsin](https://github.com/Lakunsin)  
 Aspiring SOC Analyst
 
 LinkedIn: https://www.linkedin.com/in/olakunle-o-04a51a257
 
 ## Project Information
-Program Name: Cybersecurity Internship at Networkwalks (Batch B084) | Week: 03 | Project: Password Cracking with JTR & Networkwalks Tools | Repository: [GitHub](https://github.com/Lakunsin)
+Program Name: Cybersecurity Internship at Networkwalks (Batch B084) | Week: 03 | Project: Password Cracking with JTR & Networkwalks Tools | Repository: GitHub
