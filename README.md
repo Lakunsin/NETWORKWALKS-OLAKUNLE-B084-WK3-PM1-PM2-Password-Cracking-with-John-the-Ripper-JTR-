@@ -115,3 +115,29 @@ Based on the successful recovery of the PDF passwords through offline dictionary
 * **Control File Distribution & Access:** Because an attacker can extract the encryption hash (`$pdf$`) and run unlimited offline password guesses without triggering lockout alerts, store sensitive files in encrypted, access-controlled repositories.  
 
 
+## Tools & Resources
+
+* **John the Ripper (JTR Jumbo 1.9.0-1):** Open-source command-line password security auditing and hash recovery engine (`https://www.openwall.com/john/`).
+* **Johnny GUI (v2.2):** Cross-platform graphical front-end for managing John the Ripper sessions, hash files, and attack configurations (`https://openwall.info/wiki/john/johnny`).
+* **PDF Hash Extractor:** Online hash extraction interface used for protected PDF files (`https://www.onlinehashcrack.com/tools-pdf-hash-extractor.php`).
+* **Networkwalks Hash Calculator:** Client-side browser utility used for extracting hashes (`https://networkwalks.com/hash-calculator/`).
+* **Networkwalks Password Cracker:** Browser-based dictionary attack lab tool for testing extracted PDF hashes against wordlists (`https://networkwalks.com/password-cracker/`).
+* **Adobe Acrobat Reader DC:** Used to validate the recovered passwords, open the locked PDFs, and capture the flags.
+
+
+## Author
+
+* **Name:** Olakunle Odesanya (Aspiring SOC Analyst)
+* **GitHub:** [Lakunsin](https://github.com/Lakunsin)
+* **LinkedIn:** [Olakunle O.](https://www.linkedin.com/in/olakunle-o-04a51a257)
+
+---
+
+## Project Information
+
+| Field | Details |
+| :--- | :--- |
+| **Program Name** | Cybersecurity Internship at Networkwalks (Batch B084) |
+| **Week** | 03 |
+| **Project** | Password Cracking with JTR & Networkwalks Tools |
+| **Repository** | GitHub |
