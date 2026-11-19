@@ -127,9 +127,8 @@ Based on the successful recovery of the PDF passwords through offline dictionary
 
 ## Author
 Olakunle Odesanya  
+Aspiring SOC Analyst  
 Github: [Lakunsin](https://github.com/Lakunsin)  
-Aspiring SOC Analyst
-
 LinkedIn: https://www.linkedin.com/in/olakunle-o-04a51a257
 
 ## Project Information
