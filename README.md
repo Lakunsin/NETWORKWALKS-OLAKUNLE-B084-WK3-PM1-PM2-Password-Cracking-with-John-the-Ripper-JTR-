@@ -72,3 +72,38 @@ The purpose of this lab is to demonstrate why relying on short, predictable, or 
    ![6.2_NW_PDF_Flag_Captured](6.2_NW_PDF_Flag_Captured.png)
 
 
+### Extra Verifications (My Locked PDF2 & My Locked PDF3)
+
+1. **JTR:** Extracted the PDF hashes for `My Locked PDF2` and `My Locked PDF3`, saved them as text files (`Hashmylockedpdf2` and `Hashmylockedpdf3`), and opened each file in Johnny via **Open password file > Open password file (PASSWD format)** to reveal their respective passwords.
+2. **Networkwalks Tools:** Repeated the exact same browser-based hash extraction and dictionary audit workflow for `My Locked PDF2` and `My Locked PDF3`, yielding the identical recovered passwords as the Johnny GUI workflow.
+
+#### My Locked PDF2
+
+* **JTR Password:**
+
+  ![7.2_My_Locked_PDF2_Password](7.2_My_Locked_PDF2_Password.png)
+
+* **Networkwalks Password:**
+
+  ![7.4_My_Locked_PDF2_NW_Password](7.4_My_Locked_PDF2_NW_Password.png)
+
+* **Flag Captured:**
+
+  ![7.5_My_Locked_PDF2_Flag_Captured](7.5_My_Locked_PDF2_Flag_Captured.png)
+
+#### My Locked PDF3
+
+* **JTR Password:**
+
+  ![8.2_My_Locked_PDF3_Password](8.2_My_Locked_PDF3_Password.png)
+
+* **Networkwalks Password:**
+
+  ![8.4_My_Locked_PDF3_NW_Password](8.4_My_Locked_PDF3_NW_Password.png)
+
+* **Flag Captured:**
+
+  ![8.5_My_Locked_PDF3_Flag_Captured](8.5_My_Locked_PDF3_Flag_Captured.png)
+
+
+  
