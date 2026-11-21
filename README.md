@@ -34,7 +34,7 @@ The purpose of this lab is to demonstrate why relying on short, predictable, or 
 | **CLI Cracking Engine** | John the Ripper `1.9.0-jumbo-1` (64-bit Windows binaries, `run/john.exe`) |
 | **GUI Front-End** | Johnny GUI `v2.2` (`johnnyInstaller.exe`) |
 | **Browser Auditing Suite** | Networkwalks Hash Calculator & Password Cracker (`networkwalks.com`) |
-| **Target Artifacts** | `My Locked PDF1.pdf` (65.2 KB, Revision R4, Version V4, 128-bit encryption), `My Locked PDF 2`, `My Locked PDF 3` |
+| **Target Artifacts** | `My Locked PDF1.pdf`, `My Locked PDF 2`, `My Locked PDF 3` |
 | **Extracted Hash Files** | `Hashmylockedpdf1`, `Hashmylockedpdf2`, `Hashmylockedpdf3` |
 | **Attack Methodology** | Offline Dictionary Attack (Built-in 100-word list / JTR default wordlist) |
 
